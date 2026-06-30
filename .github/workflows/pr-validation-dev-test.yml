@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-
+      - name: Dev validation placeholder
+        run: echo "No dev validation steps are configured."

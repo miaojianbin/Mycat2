@@ -15,4 +15,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
+      - name: Native validation placeholder
+        run: echo "No native validation steps are configured."
