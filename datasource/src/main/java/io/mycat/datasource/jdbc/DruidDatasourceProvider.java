@@ -55,6 +55,9 @@ public class DruidDatasourceProvider implements DatasourceProvider {
         datasource.setPassword(password);
         datasource.setUsername(username);
         datasource.setUrl(url);
+        if ("dm".equalsIgnoreCase(dbType)) {
+            datasource.setDriverClassName("dm.jdbc.driver.DmDriver");
+        }
         datasource.setMaxWait(config.getMaxConnectTimeout());
         datasource.setMaxActive(maxCon);
         datasource.setMinIdle(minCon);

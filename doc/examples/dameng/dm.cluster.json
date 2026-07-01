@@ -1,0 +1,16 @@
+{
+  "clusterType": "SINGLE_NODE",
+  "heartbeat": {
+    "heartbeatTimeout": 1000,
+    "maxRetry": 3,
+    "minSwitchTimeInterval": 300,
+    "slaveThreshold": 0
+  },
+  "masters": [
+    "dmDs"
+  ],
+  "maxCon": 100,
+  "name": "dm",
+  "readBalanceType": "BALANCE_ALL",
+  "switchType": "SWITCH"
+}

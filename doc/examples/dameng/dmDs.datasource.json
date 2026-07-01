@@ -1,0 +1,17 @@
+{
+  "dbType": "dm",
+  "idleTimeout": 60000,
+  "initSqls": [],
+  "initSqlsGetConnection": true,
+  "instanceType": "READ_WRITE",
+  "maxCon": 100,
+  "maxConnectTimeout": 30000,
+  "maxRetryCount": 5,
+  "minCon": 1,
+  "name": "dmDs",
+  "password": "SYSDBA",
+  "type": "JDBC",
+  "url": "jdbc:dm://127.0.0.1:5236",
+  "user": "SYSDBA",
+  "weight": 0
+}

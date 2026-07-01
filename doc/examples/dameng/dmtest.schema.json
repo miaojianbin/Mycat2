@@ -1,0 +1,9 @@
+{
+  "customTables": {},
+  "globalTables": {},
+  "normalTables": {},
+  "schemaName": "dmtest",
+  "shardingTables": {},
+  "targetName": "dm",
+  "views": {}
+}
